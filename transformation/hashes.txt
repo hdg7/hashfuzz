@@ -1,0 +1,5 @@
+int _inst_i,_inst_j,_inst_c,_inst_len,_inst_counter=0;
+int _inst_x_1=6;
+int _inst_x_2=158;
+int _inst_x_3=169;
+ if (size == -1) {     printf("Failed to read from stdin\n");     return(-1);   }   int _inst_h_1=0,_inst_h_2=0,_inst_h_3=0;   for(int _inst_a =0; _inst_a < size; _inst_a++)     {       _inst_h_1=(_inst_h_1 + findParity(_inst_x_1&data[_inst_a]))%2;       _inst_h_2=(_inst_h_2 + findParity(_inst_x_2&data[_inst_a]))%2;       _inst_h_3=(_inst_h_3 + findParity(_inst_x_3&data[_inst_a]))%2;     }   if(_inst_h_1==0)     _inst_counter++;   else     _inst_counter++;   if(_inst_h_2==0)     _inst_counter++;   else     _inst_counter++;   if(_inst_h_3==0)     _inst_counter++;   else     _inst_counter++; 
