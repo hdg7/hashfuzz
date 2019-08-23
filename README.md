@@ -17,7 +17,7 @@ Then, in each of the corresponding folder replace the target.cc with the new tar
 
 https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md
 
-The seeds used for every library are the provided ones. When no seed is provided, we create a file containing a string "AAAAA" as the original seed.
+The seeds used for every library are the provided ones. When no seed is provided, we create a file containing a string "AAAAAAAAA" as the original seed. Nevertheless, we also include the seeds folders for reproductibility purposes.
 
 For AFL and AFL-based, you can reuse the targets by using the AFL driver of LibFuzzer. Althought we provide the driver here, we recommend to get its last version from your AFL version.
 
