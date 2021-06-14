@@ -1,6 +1,6 @@
 # Hashfuzz
 
-This repository contains the basic examples for targets of HashFuzz in ICSE 2020.
+This repository contains the basic examples for targets of HashFuzz in TSE 2021.
 
 The folder targetExamples contains a target per program. To modify them, you can do it either manually modifying targetHash with 3 values for x1, x2 and x3 choosen uniformly at random with the restriction of 1 byte or automatically by applying the hashfuzz script as follows:
 
